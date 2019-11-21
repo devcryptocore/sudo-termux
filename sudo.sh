@@ -52,7 +52,7 @@ cat sudo > /data/data/com.termux/files/usr/bin/sudo
 chmod 700 /data/data/com.termux/files/usr/bin/sudo
 
 sleep 3s
-rm sudo
+rm -rf termux-sudo
 clear
 echo -e "\e[91m               .andAHHAbnn."
 echo -e "           .aAHHHAAUUAAHHHAn."
